@@ -7,19 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0C676429E948FE00017AE5 /* VectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C676329E948FE00017AE5 /* VectorView.swift */; };
+		ED0C677229EBDB6E00017AE5 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C677129EBDB6E00017AE5 /* ColorPickerView.swift */; };
+		ED0C677429EBDCAE00017AE5 /* SupportedOSVersionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C677329EBDCAE00017AE5 /* SupportedOSVersionsView.swift */; };
+		ED0C677629EBDCEE00017AE5 /* FilterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C677529EBDCEE00017AE5 /* FilterHelper.swift */; };
+		ED0C677829EBDF6F00017AE5 /* Color+GetCIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C677729EBDF6F00017AE5 /* Color+GetCIColor.swift */; };
+		ED0C677A29EBE04F00017AE5 /* AffineTransformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C677929EBE04F00017AE5 /* AffineTransformView.swift */; };
+		ED0C677C29EBE87000017AE5 /* ExtentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C677B29EBE87000017AE5 /* ExtentView.swift */; };
+		ED0C677E29EC1B8400017AE5 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C677D29EC1B8400017AE5 /* TextView.swift */; };
+		ED0C678329EC69E200017AE5 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C678229EC69E200017AE5 /* ToggleView.swift */; };
+		ED647D3929E599970067FA8D /* NSImage+CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED647D3829E599970067FA8D /* NSImage+CIImage.swift */; };
+		ED647D3B29E599E70067FA8D /* Dictionary+Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED647D3A29E599E70067FA8D /* Dictionary+Values.swift */; };
+		ED647D3D29E59A8E0067FA8D /* CIFIter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED647D3C29E59A8E0067FA8D /* CIFIter+Extensions.swift */; };
+		ED647D3F29E59AA20067FA8D /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED647D3E29E59AA20067FA8D /* TagListView.swift */; };
+		ED647D4129E59AB60067FA8D /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED647D4029E59AB60067FA8D /* MasterView.swift */; };
+		ED647D4329E59ACB0067FA8D /* FilterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED647D4229E59ACB0067FA8D /* FilterDetailView.swift */; };
+		ED647D4529E59ADD0067FA8D /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED647D4429E59ADD0067FA8D /* SliderView.swift */; };
+		ED647D4B29E5BCAB0067FA8D /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED647D4A29E5BCAB0067FA8D /* FilterViewModel.swift */; };
+		EDBFF01029EDCC7C003BC15F /* CIDisparityToDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF00F29EDCC7C003BC15F /* CIDisparityToDepth.swift */; };
+		EDBFF01429EDDEC5003BC15F /* CIDepthToDisparity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF01329EDDEC5003BC15F /* CIDepthToDisparity.swift */; };
+		EDBFF01A29EDE3CA003BC15F /* OutputCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF01929EDE3CA003BC15F /* OutputCodeView.swift */; };
+		EDBFF01D29EDE6FD003BC15F /* CodeEditor in Frameworks */ = {isa = PBXBuildFile; productRef = EDBFF01C29EDE6FD003BC15F /* CodeEditor */; };
+		EDBFF01F29EE65E5003BC15F /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF01E29EE65E5003BC15F /* QRCodeView.swift */; };
 		EDCFF91629E06FD000E7DA7F /* CoreImage_FiltersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFF91529E06FD000E7DA7F /* CoreImage_FiltersApp.swift */; };
 		EDCFF91829E06FD000E7DA7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFF91729E06FD000E7DA7F /* ContentView.swift */; };
 		EDCFF91A29E06FD000E7DA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCFF91929E06FD000E7DA7F /* Assets.xcassets */; };
 		EDCFF91D29E06FD000E7DA7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCFF91C29E06FD000E7DA7F /* Preview Assets.xcassets */; };
+		EDD3AC7129EF1256000C990F /* ibrahim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDD3AC7029EF1256000C990F /* ibrahim.jpg */; };
+		EDD3AC7329EF1EB3000C990F /* FilterParamsMasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3AC7229EF1EB3000C990F /* FilterParamsMasterView.swift */; };
+		EDD3AC7529EF24EC000C990F /* QRCodeInputCorrectionLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3AC7429EF24EC000C990F /* QRCodeInputCorrectionLevelView.swift */; };
+		EDD3AC7729EF2B30000C990F /* View+GetHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3AC7629EF2B30000C990F /* View+GetHeader.swift */; };
+		EDD3AC7929EF2B4E000C990F /* View+ApplyFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3AC7829EF2B4E000C990F /* View+ApplyFilter.swift */; };
+		EDD3AC7B29EF2BAD000C990F /* FilterRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3AC7A29EF2BAD000C990F /* FilterRange.swift */; };
+		EDE7A3E429E5D8780026865B /* SelectImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE7A3E329E5D8780026865B /* SelectImageView.swift */; };
+		EDE7A3E829E6B8570026865B /* CIDepthBlurSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE7A3E729E6B8570026865B /* CIDepthBlurSample.swift */; };
+		EDE7A3EA29E6B8AB0026865B /* CIImage+NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE7A3E929E6B8AB0026865B /* CIImage+NSImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED0C676329E948FE00017AE5 /* VectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorView.swift; sourceTree = "<group>"; };
+		ED0C677129EBDB6E00017AE5 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		ED0C677329EBDCAE00017AE5 /* SupportedOSVersionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportedOSVersionsView.swift; sourceTree = "<group>"; };
+		ED0C677529EBDCEE00017AE5 /* FilterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterHelper.swift; sourceTree = "<group>"; };
+		ED0C677729EBDF6F00017AE5 /* Color+GetCIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+GetCIColor.swift"; sourceTree = "<group>"; };
+		ED0C677929EBE04F00017AE5 /* AffineTransformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffineTransformView.swift; sourceTree = "<group>"; };
+		ED0C677B29EBE87000017AE5 /* ExtentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentView.swift; sourceTree = "<group>"; };
+		ED0C677D29EC1B8400017AE5 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		ED0C678229EC69E200017AE5 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		ED647D3829E599970067FA8D /* NSImage+CIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+CIImage.swift"; sourceTree = "<group>"; };
+		ED647D3A29E599E70067FA8D /* Dictionary+Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Values.swift"; sourceTree = "<group>"; };
+		ED647D3C29E59A8E0067FA8D /* CIFIter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CIFIter+Extensions.swift"; sourceTree = "<group>"; };
+		ED647D3E29E59AA20067FA8D /* TagListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		ED647D4029E59AB60067FA8D /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
+		ED647D4229E59ACB0067FA8D /* FilterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDetailView.swift; sourceTree = "<group>"; };
+		ED647D4429E59ADD0067FA8D /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		ED647D4A29E5BCAB0067FA8D /* FilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
+		EDBFF00F29EDCC7C003BC15F /* CIDisparityToDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIDisparityToDepth.swift; sourceTree = "<group>"; };
+		EDBFF01329EDDEC5003BC15F /* CIDepthToDisparity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIDepthToDisparity.swift; sourceTree = "<group>"; };
+		EDBFF01929EDE3CA003BC15F /* OutputCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputCodeView.swift; sourceTree = "<group>"; };
+		EDBFF01E29EE65E5003BC15F /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
 		EDCFF91229E06FD000E7DA7F /* CoreImage-Filters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreImage-Filters.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCFF91529E06FD000E7DA7F /* CoreImage_FiltersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImage_FiltersApp.swift; sourceTree = "<group>"; };
 		EDCFF91729E06FD000E7DA7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDCFF91929E06FD000E7DA7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDCFF91C29E06FD000E7DA7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDCFF91E29E06FD000E7DA7F /* CoreImage_Filters.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoreImage_Filters.entitlements; sourceTree = "<group>"; };
+		EDD3AC7029EF1256000C990F /* ibrahim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ibrahim.jpg; path = "CoreImage-Filters/ibrahim.jpg"; sourceTree = SOURCE_ROOT; };
+		EDD3AC7229EF1EB3000C990F /* FilterParamsMasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterParamsMasterView.swift; sourceTree = "<group>"; };
+		EDD3AC7429EF24EC000C990F /* QRCodeInputCorrectionLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeInputCorrectionLevelView.swift; sourceTree = "<group>"; };
+		EDD3AC7629EF2B30000C990F /* View+GetHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+GetHeader.swift"; sourceTree = "<group>"; };
+		EDD3AC7829EF2B4E000C990F /* View+ApplyFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ApplyFilter.swift"; sourceTree = "<group>"; };
+		EDD3AC7A29EF2BAD000C990F /* FilterRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRange.swift; sourceTree = "<group>"; };
+		EDE7A3E329E5D8780026865B /* SelectImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImageView.swift; sourceTree = "<group>"; };
+		EDE7A3E729E6B8570026865B /* CIDepthBlurSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIDepthBlurSample.swift; sourceTree = "<group>"; };
+		EDE7A3E929E6B8AB0026865B /* CIImage+NSImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CIImage+NSImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +88,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDBFF01D29EDE6FD003BC15F /* CodeEditor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED647D4829E59B050067FA8D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDD3AC6E29EEED80000C990F /* FilterViews */,
+				EDD3AC6F29EEEE0F000C990F /* FilterParamViews */,
+				EDCFF91729E06FD000E7DA7F /* ContentView.swift */,
+				ED647D4029E59AB60067FA8D /* MasterView.swift */,
+				EDBFF01929EDE3CA003BC15F /* OutputCodeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED647D4929E59B0E0067FA8D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED647D3C29E59A8E0067FA8D /* CIFIter+Extensions.swift */,
+				EDE7A3E929E6B8AB0026865B /* CIImage+NSImage.swift */,
+				ED0C677729EBDF6F00017AE5 /* Color+GetCIColor.swift */,
+				ED647D3A29E599E70067FA8D /* Dictionary+Values.swift */,
+				ED647D3829E599970067FA8D /* NSImage+CIImage.swift */,
+				EDD3AC7829EF2B4E000C990F /* View+ApplyFilter.swift */,
+				EDD3AC7629EF2B30000C990F /* View+GetHeader.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		EDCFF90929E06FCF00E7DA7F = {
 			isa = PBXGroup;
 			children = (
@@ -53,8 +141,13 @@
 			isa = PBXGroup;
 			children = (
 				EDCFF91529E06FD000E7DA7F /* CoreImage_FiltersApp.swift */,
-				EDCFF91729E06FD000E7DA7F /* ContentView.swift */,
+				ED0C677529EBDCEE00017AE5 /* FilterHelper.swift */,
+				ED647D4A29E5BCAB0067FA8D /* FilterViewModel.swift */,
+				EDD3AC7A29EF2BAD000C990F /* FilterRange.swift */,
+				ED647D4929E59B0E0067FA8D /* Extensions */,
+				ED647D4829E59B050067FA8D /* Views */,
 				EDCFF91929E06FD000E7DA7F /* Assets.xcassets */,
+				EDD3AC7029EF1256000C990F /* ibrahim.jpg */,
 				EDCFF91E29E06FD000E7DA7F /* CoreImage_Filters.entitlements */,
 				EDCFF91B29E06FD000E7DA7F /* Preview Content */,
 			);
@@ -67,6 +160,37 @@
 				EDCFF91C29E06FD000E7DA7F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDD3AC6E29EEED80000C990F /* FilterViews */ = {
+			isa = PBXGroup;
+			children = (
+				EDE7A3E729E6B8570026865B /* CIDepthBlurSample.swift */,
+				EDBFF01329EDDEC5003BC15F /* CIDepthToDisparity.swift */,
+				EDBFF00F29EDCC7C003BC15F /* CIDisparityToDepth.swift */,
+				EDBFF01E29EE65E5003BC15F /* QRCodeView.swift */,
+				ED647D4229E59ACB0067FA8D /* FilterDetailView.swift */,
+				ED0C677329EBDCAE00017AE5 /* SupportedOSVersionsView.swift */,
+				ED647D3E29E59AA20067FA8D /* TagListView.swift */,
+			);
+			path = FilterViews;
+			sourceTree = "<group>";
+		};
+		EDD3AC6F29EEEE0F000C990F /* FilterParamViews */ = {
+			isa = PBXGroup;
+			children = (
+				ED0C677929EBE04F00017AE5 /* AffineTransformView.swift */,
+				EDD3AC7229EF1EB3000C990F /* FilterParamsMasterView.swift */,
+				ED0C677129EBDB6E00017AE5 /* ColorPickerView.swift */,
+				ED0C677B29EBE87000017AE5 /* ExtentView.swift */,
+				EDE7A3E329E5D8780026865B /* SelectImageView.swift */,
+				ED647D4429E59ADD0067FA8D /* SliderView.swift */,
+				ED0C677D29EC1B8400017AE5 /* TextView.swift */,
+				ED0C678229EC69E200017AE5 /* ToggleView.swift */,
+				ED0C676329E948FE00017AE5 /* VectorView.swift */,
+				EDD3AC7429EF24EC000C990F /* QRCodeInputCorrectionLevelView.swift */,
+			);
+			path = FilterParamViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +209,9 @@
 			dependencies = (
 			);
 			name = "CoreImage-Filters";
+			packageProductDependencies = (
+				EDBFF01C29EDE6FD003BC15F /* CodeEditor */,
+			);
 			productName = "CoreImage-Filters";
 			productReference = EDCFF91229E06FD000E7DA7F /* CoreImage-Filters.app */;
 			productType = "com.apple.product-type.application";
@@ -101,6 +228,7 @@
 				TargetAttributes = {
 					EDCFF91129E06FD000E7DA7F = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 				};
 			};
@@ -113,6 +241,9 @@
 				Base,
 			);
 			mainGroup = EDCFF90929E06FCF00E7DA7F;
+			packageReferences = (
+				EDBFF01B29EDE6FD003BC15F /* XCRemoteSwiftPackageReference "CodeEditor" */,
+			);
 			productRefGroup = EDCFF91329E06FD000E7DA7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD3AC7129EF1256000C990F /* ibrahim.jpg in Resources */,
 				EDCFF91D29E06FD000E7DA7F /* Preview Assets.xcassets in Resources */,
 				EDCFF91A29E06FD000E7DA7F /* Assets.xcassets in Resources */,
 			);
@@ -139,8 +271,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD3AC7529EF24EC000C990F /* QRCodeInputCorrectionLevelView.swift in Sources */,
+				EDBFF01429EDDEC5003BC15F /* CIDepthToDisparity.swift in Sources */,
 				EDCFF91829E06FD000E7DA7F /* ContentView.swift in Sources */,
+				ED647D3B29E599E70067FA8D /* Dictionary+Values.swift in Sources */,
 				EDCFF91629E06FD000E7DA7F /* CoreImage_FiltersApp.swift in Sources */,
+				ED0C676429E948FE00017AE5 /* VectorView.swift in Sources */,
+				ED0C677429EBDCAE00017AE5 /* SupportedOSVersionsView.swift in Sources */,
+				EDD3AC7329EF1EB3000C990F /* FilterParamsMasterView.swift in Sources */,
+				EDE7A3E429E5D8780026865B /* SelectImageView.swift in Sources */,
+				ED0C677C29EBE87000017AE5 /* ExtentView.swift in Sources */,
+				ED647D3D29E59A8E0067FA8D /* CIFIter+Extensions.swift in Sources */,
+				EDD3AC7B29EF2BAD000C990F /* FilterRange.swift in Sources */,
+				ED647D4329E59ACB0067FA8D /* FilterDetailView.swift in Sources */,
+				EDBFF01F29EE65E5003BC15F /* QRCodeView.swift in Sources */,
+				ED0C678329EC69E200017AE5 /* ToggleView.swift in Sources */,
+				EDD3AC7729EF2B30000C990F /* View+GetHeader.swift in Sources */,
+				ED0C677E29EC1B8400017AE5 /* TextView.swift in Sources */,
+				ED0C677229EBDB6E00017AE5 /* ColorPickerView.swift in Sources */,
+				ED647D3929E599970067FA8D /* NSImage+CIImage.swift in Sources */,
+				EDE7A3E829E6B8570026865B /* CIDepthBlurSample.swift in Sources */,
+				EDD3AC7929EF2B4E000C990F /* View+ApplyFilter.swift in Sources */,
+				ED0C677829EBDF6F00017AE5 /* Color+GetCIColor.swift in Sources */,
+				ED647D3F29E59AA20067FA8D /* TagListView.swift in Sources */,
+				EDE7A3EA29E6B8AB0026865B /* CIImage+NSImage.swift in Sources */,
+				ED0C677629EBDCEE00017AE5 /* FilterHelper.swift in Sources */,
+				ED647D4B29E5BCAB0067FA8D /* FilterViewModel.swift in Sources */,
+				ED647D4529E59ADD0067FA8D /* SliderView.swift in Sources */,
+				ED647D4129E59AB60067FA8D /* MasterView.swift in Sources */,
+				ED0C677A29EBE04F00017AE5 /* AffineTransformView.swift in Sources */,
+				EDBFF01A29EDE3CA003BC15F /* OutputCodeView.swift in Sources */,
+				EDBFF01029EDCC7C003BC15F /* CIDisparityToDepth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "CoreImage-Filters/CoreImage_Filters.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -283,6 +445,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tarka.CoreImage-Filters";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -292,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "CoreImage-Filters/CoreImage_Filters.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -310,6 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tarka.CoreImage-Filters";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -336,6 +502,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EDBFF01B29EDE6FD003BC15F /* XCRemoteSwiftPackageReference "CodeEditor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZeeZide/CodeEditor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EDBFF01C29EDE6FD003BC15F /* CodeEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDBFF01B29EDE6FD003BC15F /* XCRemoteSwiftPackageReference "CodeEditor" */;
+			productName = CodeEditor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EDCFF90A29E06FCF00E7DA7F /* Project object */;
 }
